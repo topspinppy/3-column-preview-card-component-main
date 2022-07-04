@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  @media screen and (max-width: 890px) {
+    margin-top: 10px;
+    height: auto;
+  }
+}
