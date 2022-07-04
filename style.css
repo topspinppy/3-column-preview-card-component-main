@@ -369,12 +369,9 @@ article {
   justify-content: space-between;
 }
 
-article:not(.suv) {
-  border-radius: 8px;
-}
-
 article.sedans {
   border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
   background: hsl(31deg, 77%, 52%);
 }
 
@@ -383,6 +380,8 @@ article.suv {
 }
 
 article.cruise {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
   background: hsl(179deg, 100%, 13%);
 }
 
@@ -397,6 +396,12 @@ p {
   line-height: 25px;
   color: white;
   width: 212px;
+}
+
+.attribution {
+  font-family: "Lexend Deca";
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
